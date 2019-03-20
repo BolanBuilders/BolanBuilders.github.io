@@ -1,0 +1,42 @@
+ 
+body {
+color: #fe0000;
+background-color: #012833 ;
+font-size: 15px;
+/*font-size-adjust: none; /*firefox css3 if 1st font not available then it adjusts
+second font none defeats moblie browsers text infaltion auto allows it? */
+line-height: 1.25;
+
+font-family: 'Ubuntu', 'Yantramanav', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family:    'Poppins', sans-serif;
+
+}
+h1{
+  font-size: 2.6em;
+}
+h2 {
+  font-size: 2.25em;
+
+
+}
+h3 {
+  font-size: 1.75em;
+}
+h4{
+  font-size: 1.4em;
+}
+a {
+  text-decoration: none;
+  color: #a3a8fc;
+}
+a:visited {
+  color: #00adfd;
+}
+a:hover {
+  color:#75dcfd;
+}
+p {
+  text-align: left ;
+  text-rendering: optimizeLegibility;
