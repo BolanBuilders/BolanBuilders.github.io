@@ -11,6 +11,7 @@ font-family: 'Ubuntu', 'Yantramanav', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family:    'Poppins', sans-serif;
+ color:#75DCFD;
 
 }
 h1{
@@ -29,7 +30,7 @@ h4{
 }
 a {
   text-decoration: none; 
-  color: #a3a8fc;  /*I like the link color */
+  color: #75DCFD;  /*I like the link color */
 }
 a:visited {
   color: #616497;  /*changed to a darker shade of the above a*/
