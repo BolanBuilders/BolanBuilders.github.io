@@ -1,11 +1,11 @@
  
 body {
-color: #fe0000;
+
 background-color: #012833 ;
-font-size: 15px;
+font-size: 20px;  /*text is to crowded vertically changing to a 20 from 15*/
 /*font-size-adjust: none; /*firefox css3 if 1st font not available then it adjusts
 second font none defeats moblie browsers text infaltion auto allows it? */
-line-height: 1.25;
+line-height: 1.4; ?/* the larger font will help but uping space in between lines 1.25 to 1.4*/
 
 font-family: 'Ubuntu', 'Yantramanav', sans-serif;
 }
@@ -28,15 +28,12 @@ h4{
   font-size: 1.4em;
 }
 a {
-  text-decoration: none;
-  color: #a3a8fc;
+  text-decoration: none; 
+  color: #a3a8fc;  /*I like the link color */
 }
 a:visited {
-  color: #00adfd;
-}
-a:hover {
-  color:#75dcfd;
-}
+  color: #616497;  /*changed to a darker shade of the above a*/
 p {
+  color: #B200A1;  /* my argon red is to bright contrast changed to purple  moved from body to p Purple headings ugg*/
   text-align: left ;
   text-rendering: optimizeLegibility;
