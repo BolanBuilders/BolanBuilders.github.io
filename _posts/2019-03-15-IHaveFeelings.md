@@ -1,5 +1,5 @@
 ---
-title: Racist
+title: React to a Supreme Court Case Review
 layout: post
 published: true
 categories: reactions
