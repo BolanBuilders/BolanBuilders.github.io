@@ -11,7 +11,7 @@
 <!-- For loop to loop through posts, post each title, post content -->
 {% for post in site.posts %}
      <h2> <a href="{{post.url}}">{{post.title}}</a></h2>
-     <p> {{post.date}}
+  <p> {{page.date | date: "%-d %B %Y"}} <br>
        {{post.content | strip_html | truncate: 144 }} </p>
 
  {% endfor %}
