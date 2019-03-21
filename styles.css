@@ -1,6 +1,6 @@
  
 body {
-color:#B200A1;  /* my argon red is to bright contrast changed to purple */
+color:#d3d3d3;  /* my argon red is to bright contrast changed to purple then to light gray colors dont look good yet */
 background-color: #012833 ;
 font-size: 20px;  /*text is to crowded vertically changing to a 20 from 15*/
 /*font-size-adjust: none; /*firefox css3 if 1st font not available then it adjusts
