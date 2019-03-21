@@ -31,9 +31,7 @@ a {
   text-decoration: none; 
  color:#75DCFD;  /*I like the link color */
 }
-a:visited {
-  color:#616497;  /*changed to a darker shade of the above a*/
-}
+
 p {
   text-align: left ;
  text-rendering: optimizeLegibility;
