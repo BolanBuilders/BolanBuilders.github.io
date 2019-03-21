@@ -1,12 +1,11 @@
  
 body {
-
+color:#B200A1;  /* my argon red is to bright contrast changed to purple */
 background-color: #012833 ;
 font-size: 20px;  /*text is to crowded vertically changing to a 20 from 15*/
 /*font-size-adjust: none; /*firefox css3 if 1st font not available then it adjusts
 second font none defeats moblie browsers text infaltion auto allows it? */
 line-height: 1.4; ?/* the larger font will help but uping space in between lines 1.25 to 1.4*/
-
 font-family: 'Ubuntu', 'Yantramanav', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -15,26 +14,27 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 h1{
-  font-size: 2.6em;
+  font-size: 2.1em;
 }
 h2 {
-  font-size: 2.25em;
+  font-size: 2em;
 
 
 }
 h3 {
-  font-size: 1.75em;
+  font-size: 1.5em;
 }
 h4{
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 a {
   text-decoration: none; 
-  color: #75DCFD;  /*I like the link color */
+ color:#75DCFD;  /*I like the link color */
 }
 a:visited {
-  color: #616497;  /*changed to a darker shade of the above a*/
+  color:#616497;  /*changed to a darker shade of the above a*/
+}
 p {
-  color: #B200A1;  /* my argon red is to bright contrast changed to purple  moved from body to p Purple headings ugg*/
   text-align: left ;
-  text-rendering: optimizeLegibility;
+ text-rendering: optimizeLegibility;
+ }
