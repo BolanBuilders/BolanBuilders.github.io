@@ -1,4 +1,3 @@
- 
 ---
 layout: post
 title: How to Create a Website
@@ -63,23 +62,23 @@ google fu brought up theses websites.
  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
  johnbolan@JohnBolan-Gazelle-Professional:~/Documents/BolanBuilderBlog/BolanBuilder.github.io$ ```
 
- I didnt make any website edits, other then makeing folders and an empty ph.txt via
+ I didn't make any website edits, other then making folders and an empty ph.txt via
  website.  Maybe that is it.
 
- #### Git pull
-
- 
 
 
 
 ### Think about what tags, topics, or categories of content you want.
 
 I want a vanity page about me. Another page communicates my Projects or Portfolio. This website contains a reactions or current event page.  A Documentation page, which might be the projects page.  A Sticky Page for Important articles, think a web forum stick post. I also going to include a "FUD" page, A truthful page with points about evil, hellfire,etc. An Index page with navigation to tie all this together.  How about an old fashioned links or bookmark page with a tweet length max explanation on why I found that interesting.
-Helpful site  if using Jekyll [webjeda](https://blog.webjeda.com/jekyll-categories).
+Helpful site  if using Jekyll [webjeda](https://blog.webjeda.com/jekyll-categories) and from youtube university [GiraffeAcademy](https://www.youtube.com/c/GiraffeAcademy).
+Update 03-27-2019:  Reading through the Jekyll Documentation some things have changed minorly since webjeda posted.
+They have links for tutorials on the website.  Look through them. [Cloud Cannon](https://learn.cloudcannon.com/) wants you to use their service.
+They look like they have a well thought out tutorial for the static site generator, Jekyll.
 
-Update: March 9th 2019: So far I  have created these base pages and  a skeliton of links for them in the navigation.
+Update: March 9th 2019: So far I  have created these base pages and  a skeleton of links for them in the navigation.
 Update: updated links.
-I had put in liquid permalinks in my files.
+I had put in liquid permalinks in my files:
 
 ```
 ---
@@ -87,7 +86,7 @@ permalink: /index/
 ---
 ```
 
-to
+to:
 
 ```
 ---
@@ -95,7 +94,7 @@ permalink: /index.md
 ---
 ```
 
-to
+to:
 
 ```
 ---
@@ -117,7 +116,7 @@ That finally worked better on my local host website server that I was running
  </li></h3>
 
  ```
-to
+to:
 
 ```
 <h3><li>
@@ -143,13 +142,23 @@ Caveat, I am running Jekyll so .md would be .html files if you were hand coding 
 - [Pure html](Pure)
 
 ### Create Text Content
-You can always get pictures, effects, videos, gifs,etc later. I cringe at the thought of gifs but life hacker does that tastefully.
+You can always get pictures, effects, videos, gifs,etc later. I cringe at the thought
+of gifs but Lifehacker does that tastefully.
 
 ### Create css
 
 Find Background
 set links style
 Set Font data
+Update 03272019: So I neglected to do a post on my css. I just banged it out.
+[Interneting is Hard ](https://internetingishard.com/) is invaluable.
+ Still have a lot to do as in my [Head Trama Website]() post.
+
+ Unfortunately I don't know how to link to my own posts yet so if the link doesn't
+work you will have to find it on your own. It is not yet posted so I don't have
+a web browser link yet. I need to copy it out of my web browser and paste into the
+link creating a hard link. That will break if I move things around.
+Relative links would be really nice to know right now.
 
 ### Become familiar with GitHub GUI
 
