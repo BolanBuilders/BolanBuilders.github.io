@@ -1,7 +1,6 @@
 ---
 title: Home
-layout: post 
-permalink: /index
+layout: post
 ---
 # [Bolan's BuildSite](index.md)
 
